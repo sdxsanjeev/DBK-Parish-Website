@@ -5,6 +5,7 @@
     </head>
   
  <body>
+
      <div class="spinner">
   <div class="rect1"></div>
   <div class="rect2"></div>
@@ -12,8 +13,20 @@
   <div class="rect4"></div>
   <div class="rect5"></div>
 </div>
-     <div class="spinner-wrapper"></div>
-     
+  <script>
+$(document).ready(function() {
+//Preloader
+$(window).on("load", function() {
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+});
+</script>
+
      
      
      
@@ -23,11 +36,11 @@
             <ul id="nav">
               
   <li><a class="homered" href="#">HOME</a></li>
-  <li><a class="homered" href="#">PORTFOLIO</a></li>
-  <li><a class="homered" href="#">VIDEO</a></li>
-  <li><a class="homered" href="#">IMAGES</a></li>
-  <li><a class="homered" href="#">LINKS</a></li>
-  <li><a class="homered" href="#">ABOUT</a></li>
+  <li><a class="homered" href="PORTFOLIO.html">PORTFOLIO</a></li>
+  <li><a class="homered" href="VIDEOS.html">VIDEO</a></li>
+  <li><a class="homered" href="IMAGES.html">IMAGES</a></li>
+  <li><a class="homered" href="LINKS.html">LINKS</a></li>
+  <li><a class="homered" href="ABOUT.html">ABOUT</a></li>
   
             </ul>
        </nav>
