@@ -1,3 +1,1 @@
 this is created just to learn git.
-Hey now I am writing git stash and the other file where I have written my name has been locally stahed and this changes I am Pushing it to
-remoteRepo.A Big thank you to all of you...
